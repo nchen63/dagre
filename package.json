@@ -13,7 +13,7 @@
   "contributors": [
     "Matthew Dahl (https://github.com/sandersky)"
   ],
-  "main": "index.js",
+  "main": "lib/index.js",
   "keywords": [
     "graph",
     "layout"
