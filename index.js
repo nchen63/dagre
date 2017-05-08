@@ -22,12 +22,6 @@ THE SOFTWARE.
 
 import {debugOrdering} from './lib/debug'
 
-export const debug = {
-  debugOrdering
-}
-
-export {default as layout} from './lib/layout'
-
 import {
   addBorderNode,
   addDummyNode,
@@ -44,6 +38,12 @@ import {
   successorWeights,
   time
 } from './lib/util'
+
+export const debug = {
+  debugOrdering
+}
+
+export {default as layout} from './lib/layout'
 
 export const util = {
   addBorderNode,
